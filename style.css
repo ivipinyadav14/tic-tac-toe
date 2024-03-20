@@ -5,6 +5,7 @@
 
 body{
     /* background-color: #124076; */
+    height: 100%;
     background-image: url("./Images/bgImageDesktop.jpg");
     background-size: cover;
     text-align: center;
@@ -80,12 +81,19 @@ h1 {
 }
 
 .reset{
-    height: 24vh;
+    height: 20vh;
     display: flex;
-    margin-top: 0.4rem;
+    margin-top: 0.3rem;
     gap: 1rem;
     flex-direction: column;
     justify-content: center;
+}
+
+.footer{
+    height: 2vh;
+    margin-top: 0.5rem;
+    color: white;
+    font-size: small;
 }
 
 .game{
@@ -118,7 +126,7 @@ h1 {
 .resetBtn{
     width: 20vh;
     padding: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     border: none;
     border-radius: 0.5rem;
     background-color: #720455;
@@ -139,17 +147,17 @@ h1 {
 .newBtn{
     width: 30vh;
     padding: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     border: none;
     border-radius: 0.5rem;
     background-color: #720455;
     color: white;
-    box-shadow: 0 5px #666;
+    box-shadow: 0 4px #666;
 }
 .newBtn:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    transform: translateY(3px);
 }
 
 #msg{
