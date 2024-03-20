@@ -80,6 +80,11 @@ boxes.forEach( box => {
         }
         box.disabled = true;
         checkWin();
+
+        if(clickCount == 9){
+            playerO.classList.add("playerOHide");
+            playerX.classList.add("playerXHide");
+        }         
     })
 })
 
