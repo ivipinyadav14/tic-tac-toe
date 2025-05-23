@@ -2,6 +2,8 @@
 
 This is a simple Tic Tac Toe game created using HTML, CSS, and JavaScript. It allows two players to play against each other on a 3x3 grid.
 
+Play: https://my-tictactoe-game-app.netlify.app/
+
 ## How to Play 
 
 * Open the index.html file in your web browser.
